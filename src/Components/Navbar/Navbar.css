@@ -1,3 +1,5 @@
+/* logo text color:: color: #272926;    nav-menu text color : #626230 */
+
 * {
     margin: 0;
     padding: 0;
@@ -43,5 +45,46 @@
 
 .nav-menu hr{
     border: none;
-    width: 80%;
+    width: 75%;
+    height: 3px ;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.nav-login-cart button{
+    width: 155px;
+    outline: none;
+    border: 1px solid #5e5b5f;
+    height: 50px;
+    border-radius: 50px;
+    color: #626230;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: white;
+}
+
+.nav-login-cart button:active{
+    background-color:#acaca7 ;
+}
+
+/* counter for cart  */
+.nav-cart-count{
+    display: flex;
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    font-size: 14px;
+    color: White;
+    background: red;
+border-radius: 50%;
 }
